@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <body>
+        <h1> largest number </h1>
+        
+
+        <script>
+            const num1 = parseFloat(prompt("Enter first number"));
+            const num2 = parseFloat(prompt("Enter second number"));
+            const num3 = parseFloat(prompt("Enter thirsd number"));
+            let Largest;
+
+            if(num1 >= num2 && num1 >= num3)    {
+                Largest = num1;
+            }
+
+            else if (num2 >= num2 && num2 >= num3)    {
+                Largest = num2;
+            }
+
+            else    {
+                Largest = num3;
+            }
+            document.write("The largest number is " + Largest);
+
+        </script>
+    </body>
+</html>

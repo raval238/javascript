@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>8 task of Javascript</title>
+		
+		<script type="text/javascript">
+			function demoInternalAlert()
+            {
+				alert("Internal Alert.");
+			}
+            function demoInternalConfirm(){
+				if(confirm("Are you sure you want to delete this??"))
+                {
+					alert("YESSS");
+				}
+				else{
+					alert("NOOOO");
+				}
+			}
+			function demoInternalPrompt()
+            {
+				var fName=prompt("Enter Firstname Here..");
+				var lName=prompt("Enter Lastname Here..");
+				alert(fName+" "+lName);
+			}
+
+			function bodyBGOrange()
+            {
+				document.body.style.backgroundColor="red";
+			}
+			function divBGPink()
+            {
+				document.getElementById("D1").style.backgroundColor="blue";
+			}
+        </script>    
+    </head> 
+
+
+    <body>
+            <div id="D1">
+                nisarg raval
+
+            </div>
+        <hr/>
+        <input type="button" value="Alert Inline" onclick="alert('Rohan Patel')" />&nbsp;&nbsp;  
+        <input type="button" value="Confirm Inline" onclick="confirm('Are You Sure you want to delete this??')" />&nbsp;&nbsp;
+		<input type="button" value="Prompt Inline" onclick="prompt('Enter Firstname Here..')" />&nbsp;&nbsp;
+		<hr/>
+        <input type="button" value="Body Bg red" onclick="bodyBGRED()" />&nbsp;&nbsp;
+		<input type="button" value="Div Bg blue" onclick="divBGBLUE()" />&nbsp;&nbsp;
+		<hr/>
+    </body>
+    </html>
